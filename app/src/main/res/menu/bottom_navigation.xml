@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_diary"
+        android:enabled="true"
+        android:icon="@drawable/diary_item"
+        android:title="다이어리" />
+
+    <item
+        android:id="@+id/bottom_quiz"
+        android:enabled="true"
+        android:icon="@drawable/quiz_item"
+        android:title="퀴즈" />
+    <item
+        android:id="@+id/bottom_media"
+        android:enabled="true"
+        android:icon="@drawable/media_item"
+        android:title="관련 미디어" />
+    <item
+        android:id="@+id/bottom_grade"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat_fragment"
+        android:title="에코멘트" />
+</menu>

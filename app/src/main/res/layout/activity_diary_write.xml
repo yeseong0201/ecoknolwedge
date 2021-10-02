@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activitys.DiaryWrite">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="제목 입력"
+        android:autoSizeTextType="uniform"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardview_write" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:ems="20"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="내용 입력"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true"
+        android:maxHeight="200dp"
+        android:letterSpacing="0.05"
+        android:textSize="15sp"
+        android:lineSpacingExtra="5.5sp"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_write"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:src="@drawable/planet_earth"
+            android:background="#92e1b3"
+            android:letterSpacing="0.05"
+            android:lineSpacingExtra="5.5sp"
+           android:scaleType="fitXY"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar_diary"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:background="#92e1b3"-->
+    <!--        android:elevation="4dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:src="@drawable/ecoknowledge_text_logo" />-->
+
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

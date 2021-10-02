@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "801504679277",
+    "firebase_url": "https://ecoknowledge-aa1dd-default-rtdb.firebaseio.com",
+    "project_id": "ecoknowledge-aa1dd",
+    "storage_bucket": "ecoknowledge-aa1dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801504679277:android:a74c2b671277c9f7e1f664",
+        "android_client_info": {
+          "package_name": "com.example.ecoknowledge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801504679277-q9rtccdfc2d9fe2qica42d7i79g7m29p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecoknowledge",
+            "certificate_hash": "6cd5d4375f23de9d439cc85c8848c351fb55668b"
+          }
+        },
+        {
+          "client_id": "801504679277-qvevhacv3k4dcqfgdd8g0cgbucp4v9d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXt0gndH3wl7pSK5ju1ZeXtpoDSimcEf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801504679277-qvevhacv3k4dcqfgdd8g0cgbucp4v9d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
